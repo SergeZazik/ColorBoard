@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from django.views.generic import FormView, TemplateView
 from games.forms import GameForm
-from utils.calculation import game_calculation
 from games.models import GameResult
+from utils.calculation import game_calculation
+
 # Create your views here.
 
 
